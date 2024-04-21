@@ -1,0 +1,84 @@
+/*scrollbar*/
+.table-responsive::-webkit-scrollbar {
+    background-color: #EFEFEF;
+    width: 10px;
+    height: 10px;
+    background-clip: padding-box;
+}
+
+.table-responsive::-webkit-scrollbar-button {
+    background-color: #EFEFEF;
+}
+
+.table-responsive::-webkit-scrollbar-thumb {
+    background-color: #C5C5C5;
+    border-radius: 5px;
+}
+
+.table-responsive::-webkit-scrollbar-corner {
+    background-color: #C5C5C5;
+}
+
+
+/*table*/
+.table-responsive {
+    width: 100%;
+    overflow-y: hidden;
+    overflow-x: auto;
+    margin-top: 50px;
+}
+
+.editor_box{
+    overflow-x: auto;
+    width: 100%;
+}
+.table-vedan,
+.editor_box table{
+    width: 99%;
+    font-size: 14px;
+    line-height: 1.6rem;
+}
+
+
+.table-vedan thead th,
+.editor_box table tr:first-child td{
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    background-color: #f73465;
+    color: #fff;
+    padding: 15px 10px;
+    letter-spacing: 2px;
+}
+
+.table-vedan tbody td,
+ .editor_box table td{
+    text-align: center;
+    background-color: #fff;
+    color: #333;
+    border: 1px solid #ccc;
+    padding: 8px 10px;
+    white-space: nowrap;
+}
+
+
+@media only screen and (min-width: 481px) {
+
+.table-vedan,
+.editor_box table{
+    overflow: hidden;
+    font-size: 18px;
+}
+
+.table-vedan thead th,
+.editor_box table tr:first-child td{
+    font-size: 22px;
+}
+
+}
+
+
+@media only screen and (min-width: 1025px) {
+
+
+}
